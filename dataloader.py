@@ -13,7 +13,7 @@ cv2.setNumThreads(0)
 
 class GLaSDataLoader(object):
     def __init__(self, patch_size, dataset_repeat=1, images=np.arange(0, 70), validation=False):
-        self.image_fname = 'Warwick QU Dataset (Released 2016_07_08)/train_'
+        self.image_fname = '/content/gdrive/My Drive/dataset_sel_mukosa/train_'
         self.images = images
 
         self.patch_size = patch_size
